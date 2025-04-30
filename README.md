@@ -5,6 +5,7 @@ This repository contains 2 folders:
     * This version makes use of K-Fold cross-validation for more reliable results.
     * The total dataset features are saved in a single CSV, which is then split into training and testing partitions during cross-validation.
     * Added patient information (id, label, time before diagnosis) to features CSV.
+      * Note: There may be an error causing the label to not be correct in the CSV, however, there is a `fix_labels_in_csv` function at the end of the notebook that           fixes this.
     * Improved displaying and comparison of results with visualization through plots (and saving them).
     * Added testing with random forests.
 
