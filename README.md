@@ -7,4 +7,4 @@ The notebooks can be uploaded and run in your favorite notebook editor, such as 
 
 There are 2 things to note:
 1. For the results presented in the paper, the Whisper small and Whisper medium models were used.
-2. The features must be computed, as the feature CSV is too large to upload to github.
+2. You must recompute the features, as the generated feature CSV is too large to upload to GitHub.
