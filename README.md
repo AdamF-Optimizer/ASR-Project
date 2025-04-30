@@ -1,7 +1,10 @@
 # Instructions
 This repository contains 2 folders:
   * The "Standard Version" folder runs the training once, then evaluates. This was used to get a working baseline.
-  * The "K-Fold Version" folder extends upon the "Standard Version" by performing K-Fold cross-validation, in addition to testing with random forests.
+  * The "K-Fold Version" folder extends and improves upon the "Standard Version" in several ways:
+    * This version makes use of K-Fold cross-validation for more reliable results.
+    * The total dataset features are saved in a single CSV, which is then split into training and testing partitions during cross-validation.
+    * Added testing with random forests.
 
 The notebooks can be uploaded and run in your favorite notebook editor, such as Jupyter or Google Colab.
 
