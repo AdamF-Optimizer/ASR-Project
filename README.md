@@ -4,6 +4,7 @@ This repository contains 2 folders:
   * The "K-Fold Version" folder extends and improves upon the "Standard Version" in several ways:
     * This version makes use of K-Fold cross-validation for more reliable results.
     * The total dataset features are saved in a single CSV, which is then split into training and testing partitions during cross-validation.
+    * Added patient information (id, label, time before diagnosis) to features CSV.
     * Improved displaying and comparison of results with visualization through plots (and saving them).
     * Added testing with random forests.
 
