@@ -1,4 +1,6 @@
 # Instructions
+To preprocess the full Parkceleb dataset, you can follow the code in the `Parkceleb_Pre_processing` notebook.
+
 This repository contains 2 folders:
   * The "Standard Version" folder runs the training once, then evaluates. This was used to get a working baseline.
   * The "K-Fold Version" folder extends and improves upon the "Standard Version" in several ways:
