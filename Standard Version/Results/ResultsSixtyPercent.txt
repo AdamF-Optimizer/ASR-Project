@@ -1,0 +1,13 @@
+DNN with Whisper Features:
+  Accuracy: 0.5926
+  ROC AUC: 0.6330
+  Sensitivity: 0.7003
+  Specificity: 0.4647
+  F1-Score: 0.6513
+
+DNN with Traditional Features:
+  Accuracy: 0.6017
+  ROC AUC: 0.5439
+  Sensitivity: 0.7887
+  Specificity: 0.3793
+  F1-Score: 0.6826
